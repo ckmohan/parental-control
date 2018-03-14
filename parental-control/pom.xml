@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>video-on-demand</artifactId>
+        <groupId>uk.sky.vod</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>parental-control</artifactId>
+
+    <properties>
+        <movie.metadata.version>1.0.0</movie.metadata.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>uk.sky.vod</groupId>
+            <artifactId>movie-metadata</artifactId>
+            <version>${movie.metadata.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
